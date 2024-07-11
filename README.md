@@ -1,4 +1,4 @@
-# Log-Structured Merge-Tree Storage Engine
+# Strata Storage Engine
 
 A durable local single-writer engine with checksummed WAL frames, immutable tables, Bloom filters and manifest-based compaction.
 
@@ -44,7 +44,7 @@ Python single-writer reference, not a distributed C++/Rust database. SST files a
 
 **Prerequisites:** Python 3.10+. The default reference uses Python's standard library. No API keys or external services are needed for the default sample.
 
-Download/extract this project or clone its repository, then open a terminal in the `lsm-storage-engine` folder. Create an isolated environment:
+Download/extract this project or clone its repository, then open a terminal in the `strata-storage-engine` folder. Create an isolated environment:
 
 ```sh
 python -m venv .venv
